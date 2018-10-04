@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
+
+	nav ul{
+			list-style-type: none;
+			margin: 0;
+			padding:0;
+			overflow: hidden;
+		}
+		
+		nav li {
+			
+		float:left;
+		}
+		nav li a{
+		display:block;
+		font-family:'Poiret One', cursive;
+		letter-spacing: 2px;
+		color:black;
+		padding: 14px 16px;
+		text-decoration: none;
+
+		}
+		nav li a:hover{
+			color: white;
+		
+}
+
+body {
+	background-image: url(../images/side2/bagrundside3.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	margin-top: 100px;
+	color: ghostwhite;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 60px;
+	line-height: 10px;
+}
+
+h2 {
+	font-family: 'Raleway Dots', cursive;
+	font-size: 20px;
+	text-align: center;
+	color: ghostwhite; 
+}
+
+p {
+	
+font-family: 'Raleway Dots', cursive;
+	font-size: 18px;
+	text-align:justify;
+	color: ghostwhite; 
+	padding: 25px 100px;
+	border: double ghostwhite;
+	
+	margin: 60px 450px ;
+}

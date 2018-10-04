@@ -1,0 +1,108 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
+
+	nav ul{
+			list-style-type: none;
+			margin: 0;
+			padding:0;
+			overflow: hidden;
+		}
+		
+		nav li {
+			
+		float:left;
+		}
+		nav li a{
+		display:block;
+		font-family:'Poiret One', cursive;
+		letter-spacing: 2px;
+		color:black;
+		padding: 14px 16px;
+		text-decoration: none;
+
+		}
+		nav li a:hover{
+			color: white;
+		
+}
+
+body {
+	background-image: url(../images/side2/baggrund5.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contact-title {
+	margin-top: 100px;
+	color: ghostwhite;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+	text-align: center;
+}
+
+.contact-title h1{
+	font-family: 'Poiret One', cursive;
+	font-size: 60px;
+	line-height: 10px;
+	text-align: center;
+}
+
+.contact-title h2 {
+	font-family: 'Raleway Dots', cursive;
+	font-size: 20px;
+	text-align: center;
+}
+
+form {
+	
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+	text-align: center;
+}
+
+.form-control {
+	
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid white;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 16px;
+
+	
+}
+
+input {
+	height: 40px;
+}
+
+
+form .submit {
+	
+	background: #A5A5A5;
+	border-color: transparent;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	
+}
+
+
+
+form .submit:hover {
+	background-color: grey;
+	cursor: pointer;
+	text-align: center;
+}
+
